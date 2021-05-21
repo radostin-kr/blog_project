@@ -17,4 +17,11 @@ class Db {
             echo "Connection failed: " . $e->getMessage();
         }
     }
+//    public function getConnection(){
+//        return $this->connection;
+//    }
+//    public function setConnection($connection){
+//        return $this->connection = $connection;
+//    }
+
 }

@@ -24,8 +24,8 @@
                     <th><?php echo $blog['credentials'];?></th>
                     <th><?php echo $blog['date'];?></th>
                         <td>
-                            <form method='GET' action='/project/app/view/modifyBlogView.php'>
-                                <button class='btn btn-link' type='submit' name='modify' value='<?php $blog["id"] ?>'>Modify text...</button>
+                            <form method='POST' action='/project/app/view/modifyBlogView.php'>
+                                <button class='btn btn-link' type='submit' name='modify' value='<?php echo $blog["id"]; ?>'>Modify text...</button>
                             </form>
                         </td>
                     </th>
